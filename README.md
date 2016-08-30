@@ -1,7 +1,7 @@
 # react-contextmenu
 A quick React right-click context menu.
 
-![example right-click menu](https://raw.githubusercontent.com/amurp/react-contextmenu/0888fb7ebeb8e517e82bc265a5de500ae73e1e77/react-contextmenu.png "example right-click menu")
+![example right-click menu](react-contextmenu.png?raw=true "example right-click menu")
 
 
 I needed a right-click menu for a web-based WYSIWYG application and couldn't find anything lightweight enough out there, so I'm starting this.
