@@ -2,7 +2,7 @@
   "name": "react-contextmenu",
   "version": "1.0.0",
   "description": "A lightweight right-click context menu implemented in React.",
-  "main": "ContextMenu.js",
+  "main": "index.js",
   "scripts": {
     "build": "./node_modules/.bin/babel ContextMenu.js -o index.js",
     "prepublish": "npm run build"
