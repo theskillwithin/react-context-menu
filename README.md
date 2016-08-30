@@ -27,6 +27,6 @@ import trash from './trash.svg';
 
 The ```contextID``` is the area in which you'd like right-click functionality. Add a unique ```id``` to your right-clickable element, and react-contextmenu will be available anywhere within that element.
 
-Your functions will reside in your parent component. By default, when you right click an element, the ```event.target``` is stored in state and is passed to the menu items' functions. This can be useful for DOM manipulation -- for instance, right-clicking an element and deleting it from the DOM.
+Your functions will reside in your parent component. By default, when you right click an element, the ```event.target``` is stored in state and is passed to the menu item functions. This can be useful for DOM manipulation -- for instance, removing an element from the DOM via a "delete" function passed to react-contextmenu.
 
 
