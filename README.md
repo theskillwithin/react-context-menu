@@ -6,10 +6,14 @@ A lightweight right-click context menu implemented in React.
 
 To use:
 
+Install the component in your project:
+
+```npm install react-context-menu --save```
+
 Import the component into your project:
 
 ```javascript
-import ContextMenu from './ContextMenu';
+import ContextMenu from 'ContextMenu';
 ```
 
 Pass a ```contextID```, and an array of menu items with icons, labels, and functions through props -- like so:
