@@ -1,5 +1,5 @@
 {
-  "name": "react-contextmenu",
+  "name": "react-context-menu",
   "version": "1.0.0",
   "description": "A lightweight right-click context menu implemented in React.",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amurp/react-contextmenu.git"
+    "url": "git+https://github.com/amurp/react-context-menu.git"
   },
   "keywords": [
     "react",
@@ -23,9 +23,9 @@
   "author": "Aaron Murphy",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/amurp/react-contextmenu/issues"
+    "url": "https://github.com/amurp/react-context-menu/issues"
   },
-  "homepage": "https://github.com/amurp/react-contextmenu#readme",
+  "homepage": "https://github.com/amurp/react-context-menu#readme",
   "dependencies": {
     "react": "^15.3.1",
     "react-dom": "^15.3.1"
