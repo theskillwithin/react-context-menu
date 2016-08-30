@@ -1,0 +1,39 @@
+{
+  "name": "react-contextmenu",
+  "version": "1.0.0",
+  "description": "A lightweight right-click context menu implemented in React.",
+  "main": "ContextMenu.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel ContextMenu.js -o index.js",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amurp/react-contextmenu.git"
+  },
+  "keywords": [
+    "react",
+    "contextmenu",
+    "context",
+    "meny",
+    "right",
+    "click",
+    "component"
+  ],
+  "author": "Aaron Murphy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amurp/react-contextmenu/issues"
+  },
+  "homepage": "https://github.com/amurp/react-contextmenu#readme",
+  "dependencies": {
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0"
+  }
+}
