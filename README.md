@@ -1,10 +1,10 @@
 # react-contextmenu
-A quick React right-click context menu.
+
+A lightweight right-click context menu implemented in React.
 
 ![example right-click menu](react-contextmenu.png?raw=true "example right-click menu")
 
-
-Lightweight right-click context menu implemented in React.
+To use:
 
 Import the component into your project:
 
