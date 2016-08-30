@@ -4,10 +4,29 @@ A quick React right-click context menu.
 ![example right-click menu](https://raw.githubusercontent.com/amurp/react-contextmenu/0888fb7ebeb8e517e82bc265a5de500ae73e1e77/react-contextmenu.png "example right-click menu")
 
 
-I needed a right-click menu for a web-based WYSIWYG application and couldn't find anything lightweight enough out there, so I'm starting this. Simply import the component into your project and pass the function, function title, and optional icon through props, like so:
+I needed a right-click menu for a web-based WYSIWYG application and couldn't find anything lightweight enough out there, so I'm starting this.
 
-```<ContextMenu contextID={'emailHTML'} functions={[{ 'icon':'#icon__trash', 'title': 'Delete', 'function': this.deleteHandler }]} />```
+Import the component into your project:
 
-The ```contextID``` is the area in which you'd like right-click functionality.
+```javascript
+import ContextMenu from './ContextMenu';
+```
 
-Written in ES6. Compile with babel if needed. If there is any interest I can quickly make a pre-ES6 version.
+Pass a ```contextID```, and an array of menu items with icons, labels, and functions through props -- like so:
+
+```jsx
+<ContextMenu contextID={'clickable-area'} items={[{'icon': wheel, 'label': 'Configure', 'function': this.configHandler}, {'icon': trash, 'label': 'Delete', 'function': this.deleteHandler}]} />
+```
+
+Where ```wheel``` and ```trash``` are image files imported into the parent component like so:
+
+```javascript
+import wheel from './wheel.svg';
+import trash from './trash.svg';
+```
+
+The ```contextID``` is the area in which you'd like right-click functionality. Add a unique ```id``` to your right-clickable element, and react-contextmenu will be available anywhere within that element.
+
+Your functions will reside in your parent component. By default, when you right click an element, the ```event.target``` is stored in state and is passed to the menu items' functions. This can be useful for DOM manipulation -- for instance, right-clicking an element and deleting it from the DOM.
+
+
