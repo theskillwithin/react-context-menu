@@ -35,7 +35,9 @@ export default class ContextMenu extends React.Component {
           let icon = item.icon;
           return (
             <span onClick={clickHandler} key={label}>
+              {icon &&
               <img className="icon" src={icon} role="presentation"/>
+              }
               {label}
             </span>
           );
