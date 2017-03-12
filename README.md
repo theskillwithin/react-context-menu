@@ -13,7 +13,7 @@ Install the component in your project:
 Import the component into your project:
 
 ```javascript
-import ContextMenu from 'ContextMenu';
+import ContextMenu from 'react-context-menu';
 ```
 
 Pass a ```contextID```, and an array of menu items with icons, labels, and functions through props -- like so:
